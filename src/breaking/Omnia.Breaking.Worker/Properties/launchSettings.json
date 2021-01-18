@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Omnia.Breaking.Worker": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "OMNIA_EXTENSIONID": "1caf4549-a84e-442c-8b83-2dc34ddea2d5"
+      }
+    }
+  }
+}

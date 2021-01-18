@@ -1,0 +1,1 @@
+{"Id":"1caf4549-a84e-442c-8b83-2dc34ddea2d5","Type":"Extension","Projects":[{"Path":"Omnia.Breaking.Web/Omnia.Breaking.Web.csproj","BaseImage":"preciofishbone/omnia:5.0-webapp"},{"Path":"Omnia.Breaking.Worker/Omnia.Breaking.Worker.csproj","BaseImage":"preciofishbone/omnia:5.0-worker"}]}
