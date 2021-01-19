@@ -12,7 +12,9 @@
     "@omnia/fx-models": "6.0.103-preview",
     "@omnia/fx-sp": "6.0.103-preview",
     "@omnia/fx-spfx": "6.0.103-preview",
-    "@omnia/tooling-vue": "6.0.103-preview"
+    "@omnia/tooling-vue": "6.0.103-preview",
+    "@omnia/wcm": "6.0.82-preview",
+    "@omnia/workplace": "6.0.55-preview"
   },
   "devDependencies": {
     "@types/jest": "^22.1.0",
