@@ -9,11 +9,11 @@
     "test": "jest"
   },
   "dependencies": {
-    "@omnia/fx-models": "6.0.103-preview",
-    "@omnia/fx-sp": "6.0.103-preview",
-    "@omnia/fx-spfx": "6.0.103-preview",
-    "@omnia/tooling-vue": "6.0.103-preview",
-    "@omnia/wcm": "6.0.82-preview",
+    "@omnia/fx-models": "6.1.17-dev",
+    "@omnia/fx-sp": "6.1.17-dev",
+    "@omnia/fx-spfx": "6.1.17-dev",
+    "@omnia/tooling-vue": "6.1.17-dev",
+    "@omnia/wcm": "6.0.16-dev",
     "@omnia/workplace": "6.0.55-preview"
   },
   "devDependencies": {

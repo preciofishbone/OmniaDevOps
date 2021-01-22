@@ -25,9 +25,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Omnia.Fx.NetCore.WebApp" Version="6.0.103-preview" />
-    <PackageReference Include="Omnia.WebContentManagement.Fx" Version="6.0.82-preview" />
-    <PackageReference Include="Omnia.WebContentManagement.Fx.NetCore.WebApp" Version="6.0.82-preview" />
+    <PackageReference Include="Omnia.Fx.NetCore.WebApp" Version="6.1.17-dev" />
+    <PackageReference Include="Omnia.WebContentManagement.Fx" Version="6.0.16-dev" />
+    <PackageReference Include="Omnia.WebContentManagement.Fx.NetCore.WebApp" Version="6.0.16-dev" />
   </ItemGroup>
 
   <!--***************************************************************************************-->
