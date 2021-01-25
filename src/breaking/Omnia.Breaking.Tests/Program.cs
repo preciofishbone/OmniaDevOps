@@ -15,7 +15,7 @@ namespace Omnia.Breaking.Tests
             var cloud = "https://5d18a2ba13d247fcb77fc24024c5364b-omniadevops.omniatestcloud.net/api/";
 
             Console.WriteLine("Sleeping 15 seconds before running");
-            Thread.Sleep(15000);
+            await Task.Delay(15000);
 
             Console.WriteLine($"Trying to get values from {cloud}values");
 
