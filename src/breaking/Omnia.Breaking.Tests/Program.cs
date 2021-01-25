@@ -27,7 +27,7 @@ namespace Omnia.Breaking.Tests
             var nugetClient = new HttpClient(handler);
             nugetClient.DefaultRequestHeaders.Add("Accept", "application/json");
             nugetClient.BaseAddress = new Uri(cloud);
-            var resp = nugetClient.GetAsync("values").Result;
+            var resp = await nugetClient.GetAsync("values");
 
             if (resp.StatusCode != HttpStatusCode.OK)
             {
