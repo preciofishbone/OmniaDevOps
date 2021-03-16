@@ -6,7 +6,7 @@
     "omnia-after-build": "tsc -v && tsc && gulp omnia-after-build"
   },
   "dependencies": {
-    "@omnia/tooling-composers": "6.1.17-dev"
+    "@omnia/tooling-composers": "6.0.0"
   },
   "devDependencies": {
     "gulp": "4.0.2"

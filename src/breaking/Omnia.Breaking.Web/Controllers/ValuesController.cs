@@ -1,7 +1,8 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
-
+using System;
+using System.IO;
+using System.Threading.Tasks;
 
 namespace Omnia.Breaking.Web.Controllers
 {
@@ -10,11 +11,33 @@ namespace Omnia.Breaking.Web.Controllers
     [AllowAnonymous]
     public class ValuesController : ControllerBase
     {
+
+        private static byte[] _bytes;
+
         // GET: api/<ValuesController>
         [HttpGet]
-        public IEnumerable<string> Get()
+        public async Task<IActionResult> Get()
         {
-            return new string[] { "value1", "value2" };
+
+            var inputFileName = Path.Combine(Environment.CurrentDirectory, "test.js");
+
+            if (_bytes.IsNull())
+            {
+                _bytes = await System.IO.File.ReadAllBytesAsync(inputFileName);
+            }
+
+
+            Response.Headers.Add("Content-Encoding", new[] { "br" });
+            //using (FileStream input = System.IO.File.ReadAllBytes(inputFileName))
+            //{
+
+            return new FileContentResult(_bytes, "application/x-javascript");
+            //return new FileStreamResult(new MemoryStream(_bytes), "application/x-javascript");
+            // }
+
+            //return new string[] { "value1", "value2" };
+
+
         }
 
         // GET api/<ValuesController>/5
