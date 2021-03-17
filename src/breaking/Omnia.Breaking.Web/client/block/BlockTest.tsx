@@ -12,7 +12,7 @@ export default class BlockTest extends VueComponentBase implements IWebComponent
 
     @BlockSettingsReader<BlockTestBlockSettings>({
         defaultValue: BlockConfigurationFactory.defaultSettings(),
-        editElement: "$element$-settings"
+        editElement: "odops-blocktest-settings"
     })
     protected settings: BlockTestBlockSettings;
 

@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@omnia/fx-models';
 Composer
     .registerManifest(new Guid("1fc43fc5-d722-4d66-a3a4-37a2f5e24991"), "BlockTest")
     .registerWebComponent({
-        elementName: "$element$",
+        elementName: "odops-blocktest",
         entryPoint: "./BlockTest.jsx"
     })
     .withDefinition({
@@ -23,6 +23,6 @@ Composer
 Composer
 .registerManifest(new Guid("6b77a45a-c536-4b94-87e2-e982b822731f"), "BlockTest.settings")
 .registerWebComponent({
-    elementName: "$element$-settings",
+    elementName: "odops-blocktest-settings",
     entryPoint: "./BlockTestSettings.jsx"
 })
