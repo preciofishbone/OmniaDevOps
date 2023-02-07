@@ -7,7 +7,6 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "gulp": "4.0.2",
     "@omnia/tooling-composers": "6.0.0"
   },
   "engines": {

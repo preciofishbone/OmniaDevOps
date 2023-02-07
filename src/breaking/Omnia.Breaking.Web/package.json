@@ -8,14 +8,8 @@
     "build-release": "npm run build -- --docs --minify"
   },
   "dependencies": {
-    "intermock": "^0.2.5"
   },
   "devDependencies": {
-    "@types/jest": "^22.1.0",
-    "jest": "^22.1.4",
-    "jest-cli": "^22.1.4",
-    "ts-jest": "^22.0.1",
-    "gulp": "4.0.2",
     "@omnia/fx-models": "6.0.0",
     "@omnia/fx-sp": "6.0.0",
     "@omnia/fx-spfx": "6.0.0",
